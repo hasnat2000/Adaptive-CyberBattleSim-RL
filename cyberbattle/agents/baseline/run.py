@@ -31,7 +31,7 @@ from cyberbattle._env.cyberbattle_env import CyberBattleEnv
 
 parser = argparse.ArgumentParser(description="Run simulation with DQL baseline agent.")
 
-parser.add_argument("--training_episode_count", default=50, type=int, help="number of training epochs")
+parser.add_argument("--training_episode_count", default=15, type=int, help="number of training epochs")
 
 parser.add_argument("--eval_episode_count", default=10, type=int, help="number of evaluation epochs")
 
