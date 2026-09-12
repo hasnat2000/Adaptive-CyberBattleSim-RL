@@ -1,0 +1,178 @@
+chain_10 all cmd
+cmd: python -m cyberbattle.agents.baseline.run --chain_size 10 --training_episode_count 10 --iteration_count 3000
+
+CHAIN_10_
+
+###### Random search
+Learning with: episode_count=10,iteration_count=3000,ϵ=1.0,ϵ_min=0.0,
+  ## Episode: 1/10 'Random search' ϵ=1.0000,
+Episode 1|Iteration 0|reward: ------|last_reward_at: ----|Elapsed Time: 0:00:00|                                                                          |C:\Users\hasna\.conda\envs\cyberbattle\lib\site-packages\gymnasium\core.py:311: UserWarning:
+
+WARN: env.sample_valid_action to get variables from other wrappers is deprecated and will be removed in v1.0, to get this variable you can do `env.unwrapped.sample_valid_action` for environment variables or `env.get_wrapper_attr('sample_valid_action')` that will search the reminding wrappers.
+
+Episode 1|Iteration 995|reward: 7298.0|last_reward_at:  995|Elapsed Time: 0:00:13|#######################                                                 |
+  Episode 1 ended at t=995
+  Breakdown [Reward/NoReward (Success rate)]
+    explore-local: 9/199 (0.04)
+    explore-remote: 19/301 (0.06)
+    explore-connect: 3/309 (0.01)
+    exploit-local: 10/36 (0.22)
+    exploit-remote: 1/36 (0.03)
+    exploit-connect: 9/63 (0.12)
+  exploit deflected to exploration: 10
+  ## Episode: 2/10 'Random search' ϵ=1.0000,
+
+Episode 2|Iteration 167|reward: 7226.0|last_reward_at:  167|Elapsed Time: 0:00:08|####                                                                    |
+  Episode 2 ended at t=167
+  Breakdown [Reward/NoReward (Success rate)]
+    explore-local: 4/23 (0.15)
+    explore-remote: 7/53 (0.12)
+    explore-connect: 2/33 (0.06)
+    exploit-local: 9/2 (0.82)
+    exploit-remote: 6/14 (0.30)
+    exploit-connect: 10/4 (0.71)
+  exploit deflected to exploration: 3
+
+  ## Episode: 3/10 'Random search' ϵ=1.0000,
+Episode 3|Iteration 174|reward: 7194.0|last_reward_at:  174|Elapsed Time: 0:00:05|####                                                                    |
+  Episode 3 ended at t=174
+  Breakdown [Reward/NoReward (Success rate)]
+    explore-local: 3/15 (0.17)
+    explore-remote: 8/44 (0.15)
+    explore-connect: 1/52 (0.02)
+    exploit-local: 10/0 (1.00)
+    exploit-remote: 0/31 (0.00)
+    exploit-connect: 10/0 (1.00)
+  exploit deflected to exploration: 1
+
+  ## Episode 4|Iteration 107|reward: 7200.0|last_reward_at:  107|Elapsed Time: 0:00:03|##                                                                      |
+  Episode 4 ended at t=107
+  Breakdown [Reward/NoReward (Success rate)]
+    explore-local: 5/14 (0.26)
+    explore-remote: 6/27 (0.18)
+    explore-connect: 1/26 (0.04)
+    exploit-local: 9/0 (1.00)
+    exploit-remote: 2/7 (0.22)
+    exploit-connect: 10/0 (1.00)
+  exploit deflected to exploration: 1
+
+  ## Episode: 5/10 'Random search' ϵ=1.0000,
+Episode 5|Iteration 79|reward: 7202.0|last_reward_at:   79|Elapsed Time: 0:00:02|#                                                                        |
+  Episode 5 ended at t=79
+  Breakdown [Reward/NoReward (Success rate)]
+    explore-local: 2/16 (0.11)
+    explore-remote: 6/12 (0.33)
+    explore-connect: 0/17 (0.00)
+    exploit-local: 11/1 (0.92)
+    exploit-remote: 2/1 (0.67)
+    exploit-connect: 11/0 (1.00)
+  exploit deflected to exploration: 0
+
+ ## Episode: 6/10 'Random search' ϵ=1.0000,
+Episode 6|Iteration 92|reward: 7210.0|last_reward_at:   92|Elapsed Time: 0:00:05|##                                                                       |
+  Episode 6 ended at t=92
+  Breakdown [Reward/NoReward (Success rate)]
+    explore-local: 2/11 (0.15)
+    explore-remote: 10/19 (0.34)
+    explore-connect: 0/26 (0.00)
+    exploit-local: 10/0 (1.00)
+    exploit-remote: 3/0 (1.00)
+    exploit-connect: 11/0 (1.00)
+  exploit deflected to exploration: 2
+
+ ## Episode: 7/10 'Random search' ϵ=1.0000,
+Episode 7|Iteration 69|reward: 7200.0|last_reward_at:   69|Elapsed Time: 0:00:04|#                                                                        |
+  Episode 7 ended at t=69
+  Breakdown [Reward/NoReward (Success rate)]
+    explore-local: 5/9 (0.36)
+    explore-remote: 9/7 (0.56)
+    explore-connect: 0/19 (0.00)
+    exploit-local: 9/0 (1.00)
+    exploit-remote: 0/0 (NaN)
+    exploit-connect: 11/0 (1.00)
+  exploit deflected to exploration: 1
+
+  ## Episode: 8/10 'Random search' ϵ=1.0000,
+Episode 8|Iteration 70|reward: 7190.0|last_reward_at:   70|Elapsed Time: 0:00:04|#                                                                        |
+  Episode 8 ended at t=70
+  Breakdown [Reward/NoReward (Success rate)]
+    explore-local: 3/9 (0.25)
+    explore-remote: 6/18 (0.25)
+    explore-connect: 0/12 (0.00)
+    exploit-local: 9/0 (1.00)
+    exploit-remote: 1/0 (1.00)
+    exploit-connect: 11/1 (0.92)
+  exploit deflected to exploration: 4
+
+  ## Episode: 9/10 'Random search' ϵ=1.0000,
+Episode 9|Iteration 87|reward: 7228.0|last_reward_at:   87|Elapsed Time: 0:00:05|##                                                                       |
+  Episode 9 ended at t=87
+  Breakdown [Reward/NoReward (Success rate)]
+    explore-local: 6/8 (0.43)
+    explore-remote: 11/10 (0.52)
+    explore-connect: 1/29 (0.03)
+    exploit-local: 10/1 (0.91)
+    exploit-remote: 0/0 (NaN)
+    exploit-connect: 11/0 (1.00)
+  exploit deflected to exploration: 0
+
+  ## Episode: 10/10 'Random search' ϵ=1.0000,
+Episode 10|Iteration 60|reward: 7186.0|last_reward_at:   60|Elapsed Time: 0:00:03|#                                                                       |
+  Episode 10 ended at t=60
+  Breakdown [Reward/NoReward (Success rate)]
+    explore-local: 2/9 (0.18)
+    explore-remote: 5/15 (0.25)
+    explore-connect: 0/7 (0.00)
+    exploit-local: 11/0 (1.00)
+    exploit-remote: 0/0 (NaN)
+    exploit-connect: 11/0 (1.00)
+  exploit deflected to exploration: 1
+
+
+simulation ended
+Episode duration -- DQN=Red, Random=Green
+ 3000.00  ┼─────────
+ 2905.16  ┤
+ 2810.32  ┤
+ 2715.48  ┤
+ 2620.65  ┤
+ 2525.81  ┤
+ 2430.97  ┤
+ 2336.13  ┤
+ 2241.29  ┤
+ 2146.45  ┤
+ 2051.61  ┤
+ 1956.77  ┤
+ 1861.94  ┤
+ 1767.10  ┤
+ 1672.26  ┤
+ 1577.42  ┤
+ 1482.58  ┤
+ 1387.74  ┤
+ 1292.90  ┤
+ 1198.06  ┤
+ 1103.23  ┤
+ 1008.39  ┼╮
+  913.55  ┤│
+  818.71  ┤│
+  723.87  ┤│
+  629.03  ┤│
+  534.19  ┤│
+  439.35  ┤│
+  344.52  ┤│
+  249.68  ┤╰─╮
+  154.84  ┤  ╰──────
+   60.00  ┤
+Cumulative rewards -- DQN=Red, Random=Green
+ 6667.33  ┼
+ 6065.51  ┤            ╭──────────────────────────────────────────────────────────────────
+ 5463.69  ┤            │
+ 4861.86  ┤       ╭────╯
+ 4260.04  ┤      ╭╯
+ 3658.21  ┤      │
+ 3056.39  ┤     ╭╯
+ 2454.57  ┤     │
+ 1852.74  ┤    ╭╯
+ 1250.92  ┤    │
+  649.09  ┤ ╭──╯    ╭─────────────────────────────────────────────────────────────────────
+   47.27  ┼─────────╯

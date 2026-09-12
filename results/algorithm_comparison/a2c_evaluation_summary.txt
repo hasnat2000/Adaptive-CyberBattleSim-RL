@@ -1,0 +1,32 @@
+==============================
+ A2C Evaluation
+==============================
+Chain size: 10
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+A2C model loaded
+------------------------------
+C:\Users\hasna\.conda\envs\cyberbattle\lib\site-packages\gymnasium\utils\passive_env_checker.py:127: UserWarning: WARN: The obs returned by the `reset()` method should be an int or np.int64, actual type: <class 'numpy.int32'>
+  logger.warn(f"{pre} should be an int or np.int64, actual type: {type(obs)}")
+C:\Users\hasna\.conda\envs\cyberbattle\lib\site-packages\gymnasium\utils\passive_env_checker.py:127: UserWarning: WARN: The obs returned by the `step()` method should be an int or np.int64, actual type: <class 'numpy.int32'>
+  logger.warn(f"{pre} should be an int or np.int64, actual type: {type(obs)}")
+Episode 1: Reward=796.00, Steps=3000
+Episode 2: Reward=1060.00, Steps=3000
+Episode 3: Reward=798.00, Steps=3000
+Episode 4: Reward=934.00, Steps=3000
+Episode 5: Reward=798.00, Steps=3000
+Episode 6: Reward=932.00, Steps=3000
+Episode 7: Reward=915.00, Steps=3000
+Episode 8: Reward=796.00, Steps=3000
+Episode 9: Reward=670.00, Steps=3000
+Episode 10: Reward=796.00, Steps=3000
+
+==============================
+ A2C Evaluation Results
+==============================
+Average Reward: 849.5
+Maximum Reward: 1060.0
+Minimum Reward: 670.0
+Average Episode Length: 3000.0
+Success Rate: 100.0 %
+==============================

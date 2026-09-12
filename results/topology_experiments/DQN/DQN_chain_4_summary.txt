@@ -1,0 +1,129 @@
+chain_4 all cmd
+cmd: python -m cyberbattle.agents.baseline.run --chain_size 4 --training_episode_count 10 --iteration_count 3000
+
+CH
+Episode 1|Iteration 3000|reward: 1534.0|last_reward_at: 1415|Elapsed Time: 0:00:11|#######################################################################|
+  Episode 1 stopped at t=3000
+  Breakdown [Reward/NoReward (Success rate)]
+    explore-local: 9/765 (0.01)
+    explore-remote: 8/1100 (0.01)
+    explore-connect: 5/1113 (0.00)
+    exploit-local: 0/0 (NaN)
+    exploit-remote: 0/0 (NaN)
+    exploit-connect: 0/0 (NaN)
+  exploit deflected to exploration: 0
+  ## Episode: 2/10 'Random search' ϵ=1.0000,
+Episode 2|Iteration 3000|reward: 1532.0|last_reward_at: 2157|Elapsed Time: 0:00:08|#######################################################################|
+  Episode 2 stopped at t=3000
+  Breakdown [Reward/NoReward (Success rate)]
+    explore-local: 9/794 (0.01)
+    explore-remote: 8/1092 (0.01)
+    explore-connect: 5/1092 (0.00)
+    exploit-local: 0/0 (NaN)
+    exploit-remote: 0/0 (NaN)
+    exploit-connect: 0/0 (NaN)
+  exploit deflected to exploration: 0
+  ## Episode: 3/10 'Random search' ϵ=1.0000,
+Episode 3|Iteration 3000|reward: 1534.0|last_reward_at: 1842|Elapsed Time: 0:00:05|#######################################################################|
+  Episode 3 stopped at t=3000
+  Breakdown [Reward/NoReward (Success rate)]
+    explore-local: 9/751 (0.01)
+    explore-remote: 8/1083 (0.01)
+    explore-connect: 5/1144 (0.00)
+    exploit-local: 0/0 (NaN)
+    exploit-remote: 0/0 (NaN)
+    exploit-connect: 0/0 (NaN)
+  exploit deflected to exploration: 0
+  ## Episode: 4/10 'Random search' ϵ=1.0000,
+Episode 4|Iteration 3000|reward: 1530.0|last_reward_at: 1927|Elapsed Time: 0:00:09|#######################################################################|
+  Episode 4 stopped at t=3000
+  Breakdown [Reward/NoReward (Success rate)]
+    explore-local: 9/720 (0.01)
+    explore-remote: 8/1120 (0.01)
+    explore-connect: 5/1138 (0.00)
+    exploit-local: 0/0 (NaN)
+    exploit-remote: 0/0 (NaN)
+    exploit-connect: 0/0 (NaN)
+  exploit deflected to exploration: 0
+  ## Episode: 5/10 'Random search' ϵ=1.0000,
+Episode 5|Iteration 3000|reward: 1532.0|last_reward_at: 1297|Elapsed Time: 0:00:10|#######################################################################|
+  Episode 5 stopped at t=3000
+  Breakdown [Reward/NoReward (Success rate)]
+    explore-local: 9/787 (0.01)
+    explore-remote: 8/1122 (0.01)
+    explore-connect: 5/1069 (0.00)
+    exploit-local: 0/0 (NaN)
+    exploit-remote: 0/0 (NaN)
+    exploit-connect: 0/0 (NaN)
+  exploit deflected to exploration: 0
+  ## Episode: 6/10 'Random search' ϵ=1.0000,
+Episode 6|Iteration 3000|reward:  534.0|last_reward_at:  967|Elapsed Time: 0:00:09|#######################################################################|
+  Episode 6 stopped at t=3000
+  Breakdown [Reward/NoReward (Success rate)]
+    explore-local: 9/884 (0.01)
+    explore-remote: 8/1042 (0.01)
+    explore-connect: 4/1053 (0.00)
+    exploit-local: 0/0 (NaN)
+    exploit-remote: 0/0 (NaN)
+    exploit-connect: 0/0 (NaN)
+  exploit deflected to exploration: 0
+  ## Episode: 7/10 'Random search' ϵ=1.0000,
+Episode 7|Iteration 3000|reward:  534.0|last_reward_at:  500|Elapsed Time: 0:00:10|#######################################################################|
+  Episode 7 stopped at t=3000
+  Breakdown [Reward/NoReward (Success rate)]
+    explore-local: 9/756 (0.01)
+    explore-remote: 8/1131 (0.01)
+    explore-connect: 4/1092 (0.00)
+    exploit-local: 0/0 (NaN)
+    exploit-remote: 0/0 (NaN)
+    exploit-connect: 0/0 (NaN)
+  exploit deflected to exploration: 0
+  ## Episode: 8/10 'Random search' ϵ=1.0000,
+Episode 8|Iteration 3000|reward: 1530.0|last_reward_at: 2365|Elapsed Time: 0:00:10|#######################################################################|
+  Episode 8 stopped at t=3000
+  Breakdown [Reward/NoReward (Success rate)]
+    explore-local: 9/821 (0.01)
+    explore-remote: 8/1054 (0.01)
+    explore-connect: 5/1103 (0.00)
+    exploit-local: 0/0 (NaN)
+    exploit-remote: 0/0 (NaN)
+    exploit-connect: 0/0 (NaN)
+  exploit deflected to exploration: 0
+  ## Episode: 9/10 'Random search' ϵ=1.0000,
+Episode 9|Iteration 3000|reward: 1530.0|last_reward_at: 1424|Elapsed Time: 0:00:10|#######################################################################|
+  Episode 9 stopped at t=3000
+  Breakdown [Reward/NoReward (Success rate)]
+    explore-local: 9/764 (0.01)
+    explore-remote: 8/1112 (0.01)
+    explore-connect: 5/1102 (0.00)
+    exploit-local: 0/0 (NaN)
+    exploit-remote: 0/0 (NaN)
+    exploit-connect: 0/0 (NaN)
+  exploit deflected to exploration: 0
+  ## Episode: 10/10 'Random search' ϵ=1.0000,
+Episode 10|Iteration 3000|reward: 1532.0|last_reward_at: 1935|Elapsed Time: 0:00:11|######################################################################|
+  Episode 10 stopped at t=3000
+  Breakdown [Reward/NoReward (Success rate)]
+    explore-local: 9/741 (0.01)
+    explore-remote: 8/1096 (0.01)
+    explore-connect: 5/1141 (0.00)
+    exploit-local: 0/0 (NaN)
+    exploit-remote: 0/0 (NaN)
+    exploit-connect: 0/0 (NaN)
+  exploit deflected to exploration: 0
+simulation ended
+Episode duration -- DQN=Red, Random=Green
+ 3000.00  ┼─────────
+Cumulative rewards -- DQN=Red, Random=Green
+ 1531.60  ┼
+ 1398.69  ┤     ╭─────────────────────────────────────────────────────────────────────────
+ 1265.77  ┤    ╭╯                                                       ╭─────────────────
+ 1132.86  ┤    │                                             ╭──────────╯
+  999.94  ┤   ╭╯                                             │
+  867.03  ┤  ╭╯                                 ╭────────────╯
+  734.12  ┤  │                                 ╭╯
+  601.20  ┤  │                       ╭─────────╯
+  468.29  ┤ ╭╯      ╭────────────────╯
+  335.37  ┤╭╭───────╯
+  202.46  ┼╭╯
+   69.54  ┤╯
